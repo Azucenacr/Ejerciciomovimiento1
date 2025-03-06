@@ -1,0 +1,150 @@
+
+
+  body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+
+   }
+
+
+   /*header con el menú de navegación*/
+
+   header{
+   background-color: rgba(32, 31, 73, 1);
+   color:white;
+   display: flex;
+   justify-content: space-between;/* Separa el logo a la izquierda y el menú a la derecha */
+   align-items: center; /* Alinea verticalmente los elementos */
+   padding: 1px 20px;
+   
+   }
+
+    nav{
+        display: flex;
+        margin-right: 300px
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none; /*quita los puntos*/
+        gap: 33px; /*espacio entre lo navegable*/
+    }
+
+    nav ul li {
+        margin: 0; 
+        padding: 0;
+    }
+
+    nav ul li a {
+        text-decoration: none;/*quita la linea del link*/
+        color:white;
+        font-weight: bold; 
+    }
+    nav ul li a:hover {
+        color: #616161;
+     }
+
+     /*main */
+
+  main{
+ 
+  display: flex; /* Hace que los elementos internos se alineen en una fila */
+ flex-direction: row; /* Asegura que estén en una fila */
+ justify-content: space-between; /* Distribuye los elementos */
+ gap: 20px; 
+ 
+     }
+
+/*main section 1*/
+      section{
+        margin-top: 30px;
+        width: 63%;
+
+      }
+
+     .article1 {
+        margin-left: 25px;   
+       border-width: 0.5px; /*tamaño del borde*/
+       border-style: solid; /*forma del borde*/
+        border-color:black  ;  /* Borde color */
+        border-radius: 8px;   /* Esquinas redondeadas */
+        padding: 16px;    /* Espaciado interno dentro del cuadro */
+        margin-bottom: 16px;  /* Separación vertical entre tarjetas */
+        background-color: rgba(244, 244, 244, 1);   /* Fondo color para la tarjeta */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+}
+
+
+.article1 h2 {
+    color: black;
+
+}
+
+.article1 p {
+    color: black;
+}
+    
+
+/* Aside*/
+
+aside {
+    width: 37%;  /* Ocupa el 30% del ancho del main */
+    background-color:rgba(244, 244, 244, 1);  /* Color de fondo */
+    padding: 20px;  /* Espacio interno */
+    border-radius: 10px;  /* Bordes redondeados */
+    display: flex;  /* Lo convierte en un contenedor flexible */
+    flex-direction: column;  /* Organiza los artículos en columna */
+    gap: 15px;  /* Espaciado entre artículos */
+    margin-top: 50px;
+    margin-right: 1%;
+    
+    
+}
+
+
+aside h2{
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+.articleaside{
+    background-color: #fff;  /* Fondo blanco */
+    padding: 15px;  /* Espacio interno */
+    border-radius: 10px;  /* Bordes redondeados */
+    border-color: transparent; /*color del borde*/
+    border-style: solid; /*tipo de borde*/
+    border-width: 1px; /*grosor del borde*/
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);  /* Sombra para efecto de tarjeta */
+    transition: transform 0.3s ease, border-color 0.3s ease; /* Suaviza la animación*/
+
+    
+}
+
+
+.articleaside h3{
+    color: black;
+    margin-top: 3px;
+
+}
+
+.articleaside p{
+color: rgba(50, 50, 50, 1);
+}
+
+.articleaside:hover {
+    transform: translateY(-5px); /* Efecto de elevación */
+   /* box-shadow : 0px 1px 0px rgba(51, 85, 255, 0.8); /* Sombra solo en la parte inferior */
+    /*border-color: #ff5733;  Cambia el color del borde al pasar el cursor */
+    border-bottom: 3px solid rgba(51, 85, 255, 0.8); /* Cambia solo el borde inferior */
+}
+
+footer{
+text-align: center;
+background-color: rgba(32, 31, 73, 1);
+color:white;
+padding: 10px;
+margin-top: 20px;
+}
+
